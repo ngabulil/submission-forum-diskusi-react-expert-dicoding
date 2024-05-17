@@ -1,6 +1,6 @@
 import Swal from "sweetalert2";
 
-const delay = () => new Promise((resolve) => setTimeout(resolve, 2000));
+const delay = () => new Promise((resolve) => setTimeout(resolve, 1));
 
 const api = (() => {
   const BASE_URL = 'https://forum-api.dicoding.dev/v1';

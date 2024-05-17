@@ -26,6 +26,7 @@ const loginAsyncAction = ({ email, password }) => {
             dispatch(loginAction())
         } catch (error) {
             console.log(error)
+            alert(error.message)
             throw error
         } finally {
             dispatch(hideLoading())

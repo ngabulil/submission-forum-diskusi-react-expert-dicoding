@@ -38,10 +38,10 @@ const Navbar = () => {
                 <p>{profile?.email}</p>
               </div>
             </div>
-            <p className="p-4 bg-slate-100 cursor-pointer" onClick={handleLogout}>Logout</p>
+            <p className="p-4 bg-slate-100 cursor-pointer" data-cy="logout" onClick={handleLogout}>Logout</p>
           </div>
         ) : (
-          <Link className="p-4 bg-slate-100"  to={"/login"}>login</Link>
+          <Link className="p-4 bg-slate-100" data-cy="login" to={"/login"}>login</Link>
         )}
       </nav>
     </header>
