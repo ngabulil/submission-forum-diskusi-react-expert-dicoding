@@ -93,4 +93,4 @@ const neutralizeThreadVoteAsyncAction = (param) => async(dispatch) => {
     }
 }
 
-export { getThreadsAndUsersAsyncAction, createThreadAsyncAction, upVoteThreadAsyncAction, downVoteThreadAsyncAction, neutralizeThreadVoteAsyncAction }
+export { getThreadsAndUsersAsyncAction, createThreadAsyncAction, upVoteThreadAsyncAction, downVoteThreadAsyncAction, neutralizeThreadVoteAsyncAction, getThreadsAndUsersAction, createThreadAction }

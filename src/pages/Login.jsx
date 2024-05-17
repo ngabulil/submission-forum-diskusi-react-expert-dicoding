@@ -35,6 +35,7 @@ const Login = () => {
           id="email"
           value={email}
           onChange={changeEmail}
+          data-cy="email"
         />
         <label className="text-xl" htmlFor="password">Password</label>
         <input
@@ -43,8 +44,9 @@ const Login = () => {
           id="password"
           value={password}
           onChange={changePassword}
+          data-cy="password"
         />
-        <button className="bg-blue-500"  type="submit">Login</button>
+        <button className="bg-blue-500" data-cy="button-login" type="submit">Login</button>
       </form>
       <p>dont have an account? register <Link to="/register">here</Link></p>
     </div>
